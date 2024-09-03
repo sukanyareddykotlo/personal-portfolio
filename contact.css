@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color:#F24405;
+    text-decoration-line: underline;
+    
+}
+#heading{
+    color:#ea4020;
+    font-weight: bold;
+}

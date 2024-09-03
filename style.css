@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color:#F24405;
+    text-decoration-line: underline;
+    
+}
+#heading{
+    color:#ea4020;
+    font-weight: bold;
+}
+.navbar-toggler{
+    color: red;
+}
+#button-cv{
+    background-color: #F24405;
+    color: white;
+}
+#button-cv:hover{
+    background-color: #0099DD;
+}
+
+/* hero background image */
+.bgimage {
+    height:600px;
+    background: url('assests/bg.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {.hero_title {
+    font-size: 3.5rem;
+}
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.social-icons i{
+    color: white;
+    background-color: #0099DD;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 6px;
+    padding-left: 1px;
+    filter: blur(1);
+}
+.social-icons i:hover{
+    background-color: #F24405;
+}
+
+@media only screen and (max-width:768px) {
+    .hero_title {
+        font-size: 2.5rem;
+    }
+    
+}
